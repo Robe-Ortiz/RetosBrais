@@ -1,5 +1,7 @@
 # BATALLA DEADPOOL Y WOLVERINE
 
+![Imagen de Deadpool y Wolverine](image.jpg)
+
 ### Deadpool y Wolverine se enfrentan en una batalla épica!
 Crea un programa que simule la pelea y determine un ganador.
 El programa simula un combate por turnos, donde cada protagonista posee unos puntos de vida iniciales, un daño de ataque variable y diferentes cualidades de regeneración y evasión de ataques.
