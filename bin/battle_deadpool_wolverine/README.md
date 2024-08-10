@@ -1,6 +1,6 @@
 # BATALLA DEADPOOL Y WOLVERINE
 
-![Imagen de Deadpool y Wolverine](/image.jpg)
+![Imagen de Deadpool y Wolverine](image.jpg)
 
 ### Deadpool y Wolverine se enfrentan en una batalla épica!
 Crea un programa que simule la pelea y determine un ganador.
