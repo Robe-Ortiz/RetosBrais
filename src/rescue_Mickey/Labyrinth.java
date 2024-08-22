@@ -9,7 +9,7 @@ public abstract class Labyrinth {
 		//Create a labyrinth of free
 		for(int i = 0; i < labyrinth.length;i++) {
 			for(int j = 0; j < labyrinth[i].length;j++) {
-				labyrinth[i][j] = " ";
+				labyrinth[i][j] = "?";
 			}
 		}
 		return labyrinth;

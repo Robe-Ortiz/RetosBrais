@@ -75,7 +75,7 @@ public class LabyrinthForThePlayer extends Labyrinth {
 			return false;
 		}
 
-		if (labyrinthOne.getLabyrinth()[playerRow][playerColumn + 1] == " ") {
+		if (labyrinthOne.getLabyrinth()[playerRow][playerColumn + 1] == " " || labyrinthOne.getLabyrinth()[playerRow][playerColumn + 1] == "?") {
 			labyrinthForThePlayer[playerRow][playerColumn] = " ";
 			labyrinthForThePlayer[playerRow][playerColumn + 1] = playerLetter;
 		}else if (labyrinthOne.getLabyrinth()[playerRow][playerColumn + 1] == "M") {
@@ -97,7 +97,7 @@ public class LabyrinthForThePlayer extends Labyrinth {
 			return false;
 		}
 
-		if (labyrinthOne.getLabyrinth()[playerRow + 1][playerColumn] == " ") {
+		if (labyrinthOne.getLabyrinth()[playerRow + 1][playerColumn] == " " || labyrinthOne.getLabyrinth()[playerRow + 1][playerColumn] == "?") {
 			labyrinthForThePlayer[playerRow][playerColumn] = " ";
 			labyrinthForThePlayer[playerRow + 1][playerColumn] = playerLetter;
 		}else if (labyrinthOne.getLabyrinth()[playerRow + 1][playerColumn] == "M") {
@@ -127,7 +127,7 @@ public class LabyrinthForThePlayer extends Labyrinth {
 			outOfIndexMessage();
 			return false;
 		}
-		if (labyrinthOne.getLabyrinth()[playerRow][playerColumn - 1] == " ") {
+		if (labyrinthOne.getLabyrinth()[playerRow][playerColumn - 1] == " " || labyrinthOne.getLabyrinth()[playerRow ][playerColumn - 1] == "?") {
 			labyrinthForThePlayer[playerRow][playerColumn] = " ";
 			labyrinthForThePlayer[playerRow][playerColumn - 1] = playerLetter;
 			return false;
@@ -148,7 +148,7 @@ public class LabyrinthForThePlayer extends Labyrinth {
 			outOfIndexMessage();
 			return false;
 		}
-		if (labyrinthOne.getLabyrinth()[playerRow - 1][playerColumn] == " ") {
+		if (labyrinthOne.getLabyrinth()[playerRow - 1][playerColumn] == " " || labyrinthOne.getLabyrinth()[playerRow - 1][playerColumn] == "?") {
 			labyrinthForThePlayer[playerRow][playerColumn] = " ";
 			labyrinthForThePlayer[playerRow - 1][playerColumn] = playerLetter;
 		}else if (labyrinthOne.getLabyrinth()[playerRow  - 1][playerColumn] == "M") {
@@ -224,7 +224,7 @@ public class LabyrinthForThePlayer extends Labyrinth {
 		System.out.print("Introduce el año en el cual quieres canjear tú premio: ");
 		String falseAward = scan.nextLine();
 		while(true) {
-			System.out.print("Lo sentimos no tenemos fecha disponible para ese año, introduce otra fecha: ");
+			System.out.printf("Lo sentimos no tenemos fecha disponible para el año %s, introduce otra fecha: ",falseAward);
 			falseAward = scan.nextLine();
 		}
 	}

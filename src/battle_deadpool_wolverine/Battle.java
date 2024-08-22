@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Battle {
 	
 	private static Random random = new Random();
+	private static Scanner  input = new Scanner(System.in);
 	
-	public static int lifeOfTheSuperheroe(SpecificSuperhero specificSuperhero) {
-		Scanner  input = new Scanner(System.in);
-        System.out.printf("Vida de %s: \n",specificSuperhero);
+	public static int lifeOfTheSuperheroe(SpecificSuperhero specificSuperhero) {		
+        System.out.printf("Vida de %s: ",specificSuperhero);
         int superheroLife = input.nextInt();
         return superheroLife;
 	}
