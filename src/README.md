@@ -1,9 +1,3 @@
-# Solución a los mini retos de programación de MoureDev.
+# ¡Selecciona el reto que más te guste!
 
-
-## ¿Para qué este repositorio?
-La función de este repositorio es hacer una recopilación de algunos de los mini retos de programación que se proponen en la web: [Retos de programación](https://retosdeprogramacion.com/) del desarrollador Brais Moure.
-
-En este repositorio planteo mi propia solución a los mini retos.
-
-Cada paquete contendrá un archivo README explicando las instrucciones del ejercicio, de esa manera también practicaré el lenguaje Markdown.
+Cada paquete contiene un reto de programación con su correspondiente README explicando el ejercicio. En algunos he incluido un apartado extra añadiendo más complejidad de la planteada inicialmente.
